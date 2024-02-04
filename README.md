@@ -1,8 +1,5 @@
 <h1>😹Catmento</h1>
 <br>
-<div align="center">
-  <img width="40%" src="https://github.com/bokyeongkk/comento/assets/69511656/e9e68784-1c62-4029-b2df-ae47ccfd0d6e" alt="roobits">
-</div>
 <h3 align="center">고양이 멘토가 멘티들에게 익명 멘토링을 해주는 서비스</h3>
 <br>
 
@@ -14,13 +11,13 @@
 <br>
 
 ## 🔍 Pages
-|메인|소셜로그인|
+|메인게시판|소셜로그인|
 |:---:|:---:|
-|<img width="100%" src="https://github.com/bokyeongkk/comento/assets/69511656/ebfb919e-d291-497a-bf82-487a6d066f6c"/>|<img width="100%" src="https://github.com/bokyeongkk/comento/assets/69511656/8ded6b42-7f4d-4e42-b0f9-df0c8a34671f"/>|
+|<img width="100%" src="https://github.com/bokyeongkk/catmento/assets/69511656/55cfa390-e700-4e0d-a3ae-e982a1e6925a"/>|<img width="100%" src="https://github.com/bokyeongkk/catmento/assets/69511656/d3b38062-f0f6-45fa-885c-41fda677c8b3"/>|
 |**회원가입 추가정보 수집**|**질문 작성**|
-|<img width="100%" src="https://github.com/bokyeongkk/comento/assets/69511656/1e7c65f8-4096-4183-ac0d-975c41a118aa"/>|<img width="100%" src="https://github.com/bokyeongkk/comento/assets/69511656/b109ee8d-8ac7-4097-8b30-fb3ab5645975"/>|
+|<img width="100%" src="https://github.com/bokyeongkk/catmento/assets/69511656/8b3a752c-007e-47b0-9d4a-9c52ee6214d7"/>|<img width="100%" src="https://github.com/bokyeongkk/catmento/assets/69511656/bc119efb-2cb9-4b10-83e6-76a05c1ec0a5"/>|
 |**질문 상세**|**답변 상세**|
-|<img width="100%" src="https://github.com/bokyeongkk/comento/assets/69511656/f995799a-fe74-44ed-bafd-30a285c66c2d"/>|<img width="100%" src="https://github.com/bokyeongkk/comento/assets/69511656/681ceba0-f9a2-46a1-b507-bb2c1d04a62c"/>|
+|<img width="100%" src="https://github.com/bokyeongkk/catmento/assets/69511656/d9242dd9-e175-497a-8c78-00c6123b8fc0"/>|<img width="100%" src="https://github.com/bokyeongkk/catmento/assets/69511656/453acd5c-83b5-4810-bf13-fa7728d901a2"/>|
 <br>
 
 
@@ -48,8 +45,6 @@
 - 라라벨 인증(Auth) 기능 사용
 
 ```html
-    {{-- 답변 작성 (비회원 접속 불가능) --}}
-    {{-- 멘토 유저(고양이)만 작성, 답변이 3개 이상 달린 경우 작성 불가 --}}
     @auth()
     @if(Auth::user()->type=='mento' && $count<3)
         <div>
